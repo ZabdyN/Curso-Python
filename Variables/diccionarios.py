@@ -9,8 +9,17 @@ print(diccionario)
 diccionario = {("dalto", "lols"): "el jajas"}
 print(diccionario)
 
-
-
+#Las listas no pueden ser  claves y usamos frozenset para meter conjuntos
 diccionario = {frozenset(["dalto", "apelli"]): "el jojos"}
+print(diccionario)
+
+#creando diccionarios con fromkeys
+diccionario = dict.fromkeys("ABCDEFG","skdhfksjdf") #el primer dato es un iterable, regularmente se usa para hacer una lista de keys vacia
+print(diccionario)
+#Se puede pasar el valor como lista y el valor por defecto es None
+diccionario = dict.fromkeys(["Nombre", "Apellido", "ciudad"])
+print(diccionario)
+
+diccionario = dict.fromkeys("ZXYFC")
 print(diccionario)
 
