@@ -20,4 +20,8 @@ print(resultado)
 resultado_all = all([124, "holi", True, [545, 5454]])
 print(resultado_all)
 
+#Suma todos los valores de un iterable
+sum_total = sum(numeros)
+print(sum_total)
+
 
