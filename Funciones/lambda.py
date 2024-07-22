@@ -10,7 +10,7 @@ def es_par(num):
     if (num%2==0):
         return True
     
-#usamos filter con una funcion comun
+#usamos filter con una funcion comun: filter regresa todos los valores True unicamente
 num_pares = filter(es_par,numeros)
 print(list(num_pares))
 
